@@ -4,4 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Abstract" Type="Folder">
+		<Item Name="Sensor.lvclass" Type="LVClass" URL="../Sensor/Sensor.lvclass"/>
+	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Config.ctl" Type="VI" URL="../Controls/Config.ctl"/>
+		<Item Name="SensorType.ctl" Type="VI" URL="../Controls/SensorType.ctl"/>
+	</Item>
+	<Item Name="Simulated" Type="Folder">
+		<Item Name="Simulated_Sensor.lvclass" Type="LVClass" URL="../Simulated_Sensor/Simulated_Sensor.lvclass"/>
+	</Item>
+	<Item Name="SensorFactory.vi" Type="VI" URL="../SensorFactory.vi"/>
 </Library>

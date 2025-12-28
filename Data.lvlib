@@ -4,4 +4,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="DataModel" Type="Folder">
+		<Item Name="MeasurementData.ctl" Type="VI" URL="../Data/DataModel/MeasurementData.ctl"/>
+		<Item Name="SensorMetaData.ctl" Type="VI" URL="../Data/SensorMetaData.ctl"/>
+	</Item>
+	<Item Name="Storage" Type="Folder">
+		<Item Name="CSV_Writer.lvclass" Type="LVClass" URL="../CSV_Writer/CSV_Writer.lvclass"/>
+		<Item Name="DataWriter.lvclass" Type="LVClass" URL="../Data/DataWriter/DataWriter.lvclass"/>
+		<Item Name="TDMS_Writer.lvclass" Type="LVClass" URL="../Data/TDMS_Writer/TDMS_Writer.lvclass"/>
+	</Item>
 </Library>
