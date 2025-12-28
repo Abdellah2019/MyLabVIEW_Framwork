@@ -15,6 +15,7 @@
 		<Item Name="Communication.lvlib" Type="Library" URL="../Communication.lvlib"/>
 		<Item Name="Core.lvlib" Type="Library" URL="../Core.lvlib"/>
 		<Item Name="Data.lvlib" Type="Library" URL="../Data.lvlib"/>
+		<Item Name="Error.lvlib" Type="Library" URL="../Error.lvlib"/>
 		<Item Name="Sensors.lvlib" Type="Library" URL="../Sensors.lvlib"/>
 		<Item Name="UI.lvlib" Type="Library" URL="../UI.lvlib"/>
 		<Item Name="Utilities.lvlib" Type="Library" URL="../Utilities.lvlib"/>

@@ -6,11 +6,15 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="DataModel" Type="Folder">
 		<Item Name="MeasurementData.ctl" Type="VI" URL="../Data/DataModel/MeasurementData.ctl"/>
-		<Item Name="SensorMetaData.ctl" Type="VI" URL="../Data/SensorMetaData.ctl"/>
+		<Item Name="SensorMetaData.ctl" Type="VI" URL="../Data/DataModel/SensorMetaData.ctl"/>
+		<Item Name="StorageType.ctl" Type="VI" URL="../Data/DataModel/StorageType.ctl"/>
 	</Item>
 	<Item Name="Storage" Type="Folder">
-		<Item Name="CSV_Writer.lvclass" Type="LVClass" URL="../CSV_Writer/CSV_Writer.lvclass"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DataWriter.lvclass" Type="LVClass" URL="../Data/DataWriter/DataWriter.lvclass"/>
+		<Item Name="CSV_Writer.lvclass" Type="LVClass" URL="../CSV_Writer/CSV_Writer.lvclass"/>
 		<Item Name="TDMS_Writer.lvclass" Type="LVClass" URL="../Data/TDMS_Writer/TDMS_Writer.lvclass"/>
+		<Item Name="TXT_Writer.lvclass" Type="LVClass" URL="../TXT_Writer/TXT_Writer.lvclass"/>
 	</Item>
+	<Item Name="DataWriterFactory.vi" Type="VI" URL="../DataWriterFactory.vi"/>
 </Library>
